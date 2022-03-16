@@ -21,7 +21,7 @@ const Logo = styled.h1`
 	margin: 0;
 	color: #fff;
 	font-weight: 800;
-	font-size: 80px;
+	font-size: 3.5rem;
 `
 
 const Slogan = styled.h4`
