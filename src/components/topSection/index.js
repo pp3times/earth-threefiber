@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import "@fontsource/quicksand"
 
 const TopSectionContainer = styled.div`
 	position: absolute;
@@ -11,6 +12,7 @@ const TopSectionContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: "Quicksand", sans-serif;
 	justify-content: center;
 	z-index: 99;
 `
@@ -43,15 +45,16 @@ const Paragraph = styled.p`
 
 const ContinueButton = styled.button`
 	margin-top: 3em;
-	padding: 1em 2em;
+	padding: 0.8em 1.2em;
 	border: none;
 	border-radius: 5px;
 	background-color: #fff;
 	color: #1756dd;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 22px;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
+	font-family: "Quicksand", sans-serif;
 	&:hover {
 		background-color: #1756dd;
 		color: #fff;

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import {useFrame, useLoader} from '@react-three/fiber'
-import {OrbitControls, Stars} from '@react-three/drei'
+import { Stars } from '@react-three/drei'
+// import { OrbitControls, Stars } from '@react-three/drei'
 import * as THREE from 'three'
 
 import EarthDayMap from '../../assets/textures/8k_earth_daymap.jpg'
