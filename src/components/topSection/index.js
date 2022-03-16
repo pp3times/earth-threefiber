@@ -11,12 +11,12 @@ const TopSectionContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 12%;
+	justify-content: center;
 	z-index: 99;
 `
 
 const Logo = styled.h1`
-	mnargin: 0;
+	margin: 0;
 	color: #fff;
 	font-weight: 800;
 	font-size: 80px;
@@ -41,6 +41,22 @@ const Paragraph = styled.p`
 	text-align: center;
 `
 
+const ContinueButton = styled.button`
+	margin-top: 3em;
+	padding: 1em 2em;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #1756dd;
+	font-weight: 700;
+	font-size: 18px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	&:hover {
+		background-color: #1756dd;
+		color: #fff;
+	}
+`
 
 export function TopSection() {
 	return <TopSectionContainer>
@@ -50,5 +66,6 @@ export function TopSection() {
 			There are people dying
 			If you care enough for the living
 			Make a better place for you and for me.</Paragraph>
+		<ContinueButton>Continue</ContinueButton>
 	</TopSectionContainer>
 }

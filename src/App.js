@@ -7,13 +7,14 @@ import { TopSection } from './components/topSection';
 
 const CanvasContainer = styled.div`
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	overflow: hidden;
 `;
 
 function App() {
 	return (
 		<CanvasContainer>
-			{/* <TopSection /> */}
+			<TopSection />
 			<Canvas>
 				<Suspense fallback={null}>
 					<Earth />
